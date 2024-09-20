@@ -45,6 +45,7 @@ header{
 .note{
     background-color: lightgray;
     padding: 10px
+    font-family= Arial !important;
     
 }
 .project{
@@ -73,8 +74,9 @@ header{
 }
 
 .form{
-    flex:auto
-    height=200px;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
     width: 200px;
     background-color: lightgrey;
     padding: 100px;
