@@ -1,59 +1,58 @@
-body{
+body {
     background-color: beige;
-    margin: 0px,
+    margin: 0;
 }
-main{
+main {
     margin: 20px;
 
 }
 
-.navbar ul{
+.navbar ul {
     list-style-type: none;
     background-color: grey;
     text-size-adjust: 40em;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
     overflow: hidden;
 }
-.navbar a{
+.navbar a {
     color: white;
     text-decoration: none;
     padding: 15px;
     display:block;
     text-align: center;
 }
-.navbar a:hover{
+.navbar a:hover {
     background-color: rgb(163, 159, 159);
 }
-.navbar li{
+.navbar li {
     float: left;
 
 }
-.baker{
+.baker {
     text-align: center;
     padding: 10px;
 
 }
-header{
+header {
     font-size: 2em;
     border-bottom: 2px solid;
 }
-    .top{
-        margin-left: 40px ;
-    }
+.top{
+    margin-left: 40px;
+}
 
-.note{
+.note {
     background-color: lightgray;
-    padding: 10px
+    padding: 10px;
     
 }
-.project{
+.project {
     background-color: lightgray;
     padding: 10px;
     text-align: center;
     border-bottom: 2px solid;
 }
-.about{
+.about {
     background-color: lightgray;
     padding: 10px;
     margin-top: 50px;
@@ -62,22 +61,31 @@ header{
     text-align: center;
 
 }
-#travel{
+#travel {
     border-bottom: 2px solid;
 }
-#h2{
+#h2 {
     border-bottom: 2px solid;
 }
-#h3{
+#h3 {
     border-bottom: 2px solid;
 }
 
 .form{
-    flex:auto
-    height=200px;
+    flex: auto;
+    height: 200px;
     width: 200px;
     background-color: lightgrey;
     padding: 100px;
     margin-top: 30px;
-    margin-left: 30px
+    margin-left: 30px;
+}
+
+.form-label {
+    display: block;
+}
+
+.form-input {
+    display: block;
+    margin-bottom: 20px;
 }
